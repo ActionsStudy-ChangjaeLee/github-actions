@@ -5,6 +5,7 @@ on:
   
 jobs:
   branch-filter:
-  steps:
-  - name: echo
-    run: echo hello
+    runs-on: ubuntu-latest
+    steps:
+    - name: echo
+      run: echo hello
