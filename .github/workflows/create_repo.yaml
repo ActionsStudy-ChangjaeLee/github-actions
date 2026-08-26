@@ -26,4 +26,4 @@ jobs:
 
       - name: create-repo
         run: |
-          gh repo create github-actions/${{ inputs.prefix }}-${{ inputs.name }} --public --add-readme
+          gh repo create ActionsStudy-ChangjaeLee/${{ inputs.prefix }}-${{ inputs.name }} --public --add-readme
